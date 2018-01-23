@@ -12,6 +12,6 @@
 
 define( 'RKV_DC_PATH', plugin_dir_path( __FILE__ ) );
 
-require_once BISK_DC_PATH . 'inc/class-rkv-disable-comments.php';
+require_once RKV_DC_PATH . 'inc/class-rkv-disable-comments.php';
 
 add_action( 'init', array( Rkv_Disable_Comments::get_instance(), 'init' ) );
