@@ -30,7 +30,7 @@ workflows:
   version: 2
   test_and_standards:
     jobs:
-      - lint:
+      - wpcs:
           filters:
             branches:
               ignore: develop
